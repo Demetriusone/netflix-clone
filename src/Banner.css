@@ -21,3 +21,28 @@
     max-width: 360px;
     height: 80px;
 }
+.banner--fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37,37,37,0.61),
+    #111
+    );
+}
+.banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-width: 700;
+    border-radius: 0.3vw;
+    margin-right: 1rem;
+    background-color: rgba(51,51,51, .9);
+    padding: 0.5rem 2rem;
+}
+.banner__button:hover {
+    background-color: #e6e6e6;
+    color:#000;
+    transition: all .2s;
+}
